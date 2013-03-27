@@ -1,0 +1,27 @@
+{
+  "name": "jquery-simple-touch",
+  "description": "Simple support for touch event in jQuery. Simple integration with Backbone",
+  "url": "http://tech.diaslopes.com",
+  "keywords": [
+    "touch",
+    "tap",
+    "swipe",
+    "jquery",
+    "mobile",
+    "event",
+    "backbone"
+  ],
+  "author": "Marco Dias Lopes <marco@diaslopes.com>",
+  "dependencies": {
+    "jquery": "~1.8.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-uglify": "~0.2.0"
+  },
+  "scripts": {},
+  "main": "jquery-simple-touch.js",
+  "version": "0.1.0"
+}
