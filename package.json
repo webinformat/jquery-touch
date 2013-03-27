@@ -1,7 +1,7 @@
 {
   "name": "jquery-simple-touch",
-  "description": "Simple support for touch event in jQuery. Simple integration with Backbone",
-  "url": "http://tech.diaslopes.com",
+  "description": "Simple support for touch events in jQuery. Simple integration with Backbone",
+  "url": "https://github.com/marcol/jquery-touch",
   "keywords": [
     "touch",
     "tap",
@@ -11,7 +11,7 @@
     "event",
     "backbone"
   ],
-  "author": "Marco Dias Lopes <marco@diaslopes.com>",
+  "author": "Marco Dias Lopes",
   "dependencies": {
     "jquery": "~1.8.2"
   },

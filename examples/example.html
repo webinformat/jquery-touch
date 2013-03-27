@@ -1,17 +1,43 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if IEMobile 7 ]>    <html class="no-js iem7"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Example page for the jQuery touch plugin</title>
-        <meta name="description" content="Example page for the jQuery touch plugin">
-        <meta name="viewport" content="width=device-width">
+        <title>jQuery Simple Touch Examples</title>
+        <meta name="description" content="jQuery Simple Touch Examples">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="cleartype" content="on">
 
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="examples.css">
     </head>
     <body>
-    	
+
+        <h1>jQuery Simple Touch Examples</h1>
+
+        <div class="stage">
+            <ul class="slider-wrapper">
+                <li class="slide"><img src="" title="" /></li>
+                <li class="slide"><img src="" title="" /></li>
+                <li class="slide"><img src="" title="" /></li>
+                <li class="slide"><img src="" title="" /></li>
+                <li class="slide"><img src="" title="" /></li>
+            </ul>
+            <ul class="slider-paginator">
+                <li class="slide-page"></li>
+                <li class="slide-page"></li>
+                <li class="slide-page"></li>
+                <li class="slide-page"></li>
+                <li class="slide-page"></li>
+            </ul>
+        </div>
+
+        <!-- Scripts -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="../jquery-simple-touch.js"></script>
+        <script src="example.js"></script>
+
     </body>
 </html>

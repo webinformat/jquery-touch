@@ -1,0 +1,31 @@
+/**
+ * @fileoverview jQuery Simple Touch Example
+ * @since 2013-03-27
+ */
+body {
+	background-color: #000000;
+	color: #ffffff;
+}
+.stage,
+.slide {
+	width: 400px;
+	height: 300px;
+	overflow: hidden;
+}
+.stage {
+	margin: 30px auto;
+}
+.slide img {
+	max-width: 380px;
+	max-height: 250px;
+	overflow: hidden;
+	border: 10px solid #ffffff;
+	border-width: 10px 10px 40px 10px;
+}
+.slide-page {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background-color: #ffffff;
+}
