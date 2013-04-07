@@ -53,11 +53,7 @@ $('.slider-paginator').on('tap', 'li', function () {
 <pre>
 var MyView = Backbone.View.extend({
 
-	template: Helpers.template("tplSocialPosts"),
-
-	index: 0,
-
-	initialize: function () {},
+	...
 
 	events: {
 		'tap .social-posts-nav a': 'selectPost',
