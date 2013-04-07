@@ -20,14 +20,14 @@ $slides.on('swipe', function (oEvt, oDir) {
 
 ### Swipe Left
 <pre>
-$slides.on('swipeleft', function (oEvt, oDir) {
+$slides.on('swipeleft', function (oEvt) {
 	console.log('swiping left');
 });
 </pre>
 
 ### Swipe Right
 <pre>
-$slides.on('swiperight', function (oEvt, oDir) {
+$slides.on('swiperight', function (oEvt) {
 	console.log('swiping right');
 });
 </pre>
@@ -94,8 +94,8 @@ require(['jquery', 'touch'], function ($) {
 
 
 ## Tested browsers
-* iOS 6.1
-* iOS 5.1
+* Safari iOS 6.1
+* Safari iOS 5.1
 
 ## Missing
 1. Improve Examples
