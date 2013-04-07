@@ -4,41 +4,54 @@ A very simple jQuery support for Touch events. I initialy developed this plugin 
 ## Usage
 
 ### Swipe
-<code>$slides.on('swipe', function (oEvt, oDir) {
+``
+$slides.on('swipe', function (oEvt, oDir) {
 	if (oDir.type === "left") {
 		console.log('swiping left');
 	} else {
 		console.log('swiping right');
 	}
-});</code>
+});
+``
 
 ### Swipe Left
-<code>$slides.on('swipeleft', function (oEvt, oDir) {
+``
+$slides.on('swipeleft', function (oEvt, oDir) {
 	console.log('swiping left');
-});</code>
+});
+``
 
 ### Swipe Right
-<code>$slides.on('swiperight', function (oEvt, oDir) {
+``
+$slides.on('swiperight', function (oEvt, oDir) {
 	console.log('swiping right');
-});</code>
+});
+``
 
 ### Tap
-<code>$('.slider-paginator li').on('tap', function () {
+``
+$('.slider-paginator li').on('tap', function () {
 	console.log('tapping');
-});</code>
+});
+``
 
 ### Double Tap
-<code>$('.slider-paginator').on('doubletap', function () {
+``
+$('.slider-paginator').on('doubletap', function () {
 	console.log('double tapping');
-});</code>
+});
+``
 
 ### Delegation
-<code>$('.slider-paginator').on('tap', 'li', function () {
+``
+$('.slider-paginator').on('tap', 'li', function () {
 	console.log('tapping');
-});</code>
+});
+``
 
 ### Backbone
-<code>var MyView = Backbone.View.extend({
+``
+var MyView = Backbone.View.extend({
 
 	template: Helpers.template("tplSocialPosts"),
 
@@ -53,10 +66,12 @@ A very simple jQuery support for Touch events. I initialy developed this plugin 
 
 	...
 
-});</code>
+});
+``
 
 ### AMD Support
-<code>// config requirejs
+``
+// config requirejs
 requirejs.config({
     paths: {
         jquery: 'http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min',
@@ -74,7 +89,8 @@ require(['jquery', 'touch'], function ($) {
 
     });
 
-});</code>
+});
+``
 
 
 ## Tested browsers
