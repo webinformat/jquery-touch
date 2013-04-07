@@ -1,5 +1,9 @@
 # jquery-simple-touch
-A very simple jQuery support for Touch events. I initialy developed this plugin to be easily used with Backbone.
+A very simple jQuery's plugin for Touch events. I initialy developed this plugin to be easily used with Backbone.
+
+## Install
+### Bower
+`bower install jquery-simple-touch`
 
 ## Usage
 
@@ -94,7 +98,6 @@ require(['jquery', 'touch'], function ($) {
 * iOS 5.1
 
 ## Missing
-1. Integration with Bower
 1. Improve Examples
 1. Increment browser testing coverage
 
