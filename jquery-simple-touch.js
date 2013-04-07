@@ -1,4 +1,4 @@
-/*global jQuery, console*/
+/*global jQuery, define, console*/
 /*jshint browser: true*/
 
 /**
@@ -7,7 +7,17 @@
  * @since 2013-03-25
  * @version 0.1.0
  */
-(function (oWindow, $) {
+(function (fTouch) {
+
+	"use strict";
+
+	if (typeof define === 'function' && define.amd) {
+        define(['jquery'], fTouch);
+    } else {
+        fTouch(jQuery);
+    }
+
+}(function ($) {
 
 	"use strict";
 
@@ -94,4 +104,11 @@
 
 	});
 
-}(this, jQuery));
+	// AMD Module
+	if (typeof define === "function" && define.amd) {
+		define("jquery-simple-touch", ['jquery'], function () {
+			return $;
+		});
+	}
+
+}));

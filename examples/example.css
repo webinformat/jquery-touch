@@ -6,26 +6,59 @@ body {
 	background-color: #000000;
 	color: #ffffff;
 }
+ul,
+li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+}
+h1 {
+	font-family: 'Georgia', 'Times New Roman', serif;
+	margin: 10px 5px 5px;
+	font-size: 1.5em;
+	text-align: center;
+}
 .stage,
 .slide {
-	width: 400px;
-	height: 300px;
+	width: 320px;
+	height: 260px;
 	overflow: hidden;
 }
 .stage {
-	margin: 30px auto;
+	position: relative;
+	margin: 30px auto 5px;
+}
+.slider-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 3000px;
+	overflow: hidden;
+	-webkit-transition: left 400ms ease;
+	-moz-transition: left 400ms ease;
+	-o-transition: left 400ms ease;
+	-ms-transition: left 400ms ease;
+	transition: left 400ms ease;
+}
+.slide {
+	float: left;
 }
 .slide img {
-	max-width: 380px;
-	max-height: 250px;
+	margin: 0 auto;
+	width: 320px;
+	height: 250px;
 	overflow: hidden;
-	border: 10px solid #ffffff;
-	border-width: 10px 10px 40px 10px;
+}
+.slider-paginator {
+	text-align: center;
+	margin-bottom: 10px;
 }
 .slide-page {
 	display: inline-block;
 	width: 20px;
 	height: 20px;
 	border-radius: 20px;
+	margin: 0 10px;
 	background-color: #ffffff;
 }
