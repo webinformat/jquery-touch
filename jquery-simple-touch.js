@@ -104,11 +104,4 @@
 
 	});
 
-	// AMD Module
-	if (typeof define === "function" && define.amd) {
-		define("jquery-simple-touch", ['jquery'], function () {
-			return $;
-		});
-	}
-
 }));
