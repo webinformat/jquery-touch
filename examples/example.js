@@ -1,4 +1,4 @@
-/*global jQuery*/
+/*global requirejs, require*/
 /*jshint browser:true*/
 
 /**
@@ -6,7 +6,15 @@
  * @since 2013-03-27
  */
 
-(function ($) {
+// config requirejs
+requirejs.config({
+    paths: {
+        jquery: 'http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min',
+        touch: '../jquery-simple-touch'
+    }
+});
+
+require(['jquery', 'touch'], function ($) {
 
     "use strict";
 
@@ -33,4 +41,4 @@
 
     });
 
-}(jQuery));
+});
