@@ -4,7 +4,7 @@ A very simple jQuery support for Touch events. I initialy developed this plugin 
 ## Usage
 
 ### Swipe
-`
+<pre>
 $slides.on('swipe', function (oEvt, oDir) {
 	if (oDir.type === "left") {
 		console.log('swiping left');
@@ -12,45 +12,45 @@ $slides.on('swipe', function (oEvt, oDir) {
 		console.log('swiping right');
 	}
 });
-`
+</pre>
 
 ### Swipe Left
-`
+<pre>
 $slides.on('swipeleft', function (oEvt, oDir) {
 	console.log('swiping left');
 });
-`
+</pre>
 
 ### Swipe Right
-`
+<pre>
 $slides.on('swiperight', function (oEvt, oDir) {
 	console.log('swiping right');
 });
-`
+</pre>
 
 ### Tap
-`
+<pre>
 $('.slider-paginator li').on('tap', function () {
 	console.log('tapping');
 });
-`
+</pre>
 
 ### Double Tap
-`
+<pre>
 $('.slider-paginator').on('doubletap', function () {
 	console.log('double tapping');
 });
-`
+</pre>
 
 ### Delegation
-`
+<pre>
 $('.slider-paginator').on('tap', 'li', function () {
 	console.log('tapping');
 });
-`
+</pre>
 
 ### Backbone
-`
+<pre>
 var MyView = Backbone.View.extend({
 
 	template: Helpers.template("tplSocialPosts"),
@@ -67,10 +67,10 @@ var MyView = Backbone.View.extend({
 	...
 
 });
-`
+</pre>
 
 ### AMD Support
-`
+<pre>
 // config requirejs
 requirejs.config({
     paths: {
@@ -90,7 +90,7 @@ require(['jquery', 'touch'], function ($) {
     });
 
 });
-`
+</pre>
 
 
 ## Tested browsers
