@@ -12,10 +12,10 @@
 	"use strict";
 
 	if (typeof define === 'function' && define.amd) {
-        define(['jquery'], fTouch);
-    } else {
-        fTouch(jQuery);
-    }
+		define(['jquery'], fTouch);
+	} else {
+		fTouch(jQuery);
+	}
 
 }(function ($) {
 
