@@ -34,21 +34,21 @@ $slides.on('swiperight', function (oEvt) {
 
 ### Tap
 <pre>
-$('.slider-paginator li').on('tap', function () {
+$('.slider-paginator li').on('tap', function (oEvt) {
 	console.log('tapping');
 });
 </pre>
 
 ### Double Tap
 <pre>
-$('.slider-paginator').on('doubletap', function () {
+$('.slider-paginator li').on('doubletap', function (oEvt) {
 	console.log('double tapping');
 });
 </pre>
 
 ### Delegation
 <pre>
-$('.slider-paginator').on('tap', 'li', function () {
+$('.slider-paginator').on('tap', 'li', function (oEvt) {
 	console.log('tapping');
 });
 </pre>
@@ -96,8 +96,12 @@ require(['jquery', 'touch'], function ($) {
 ## Tested browsers
 * Safari iOS 6.1
 * Safari iOS 5.1
+* Chrome iOS 6.1
+* Android Browser 4.2.2
+* Android Browser 4.1.2
+* Android Browser 4.0.3
 
 ## Missing
-1. Improve Examples
 1. Increment browser testing coverage
+1. Improve Examples
 
