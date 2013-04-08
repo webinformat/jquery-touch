@@ -1,5 +1,5 @@
 # jquery-simple-touch
-A very simple jQuery's plugin for Touch events. I initialy developed this plugin to be easily used with Backbone.
+A very simple jQuery's plugin for Touch events. I initially developed this plugin to be easily used with Backbone.
 
 ## Install
 ### Bower
