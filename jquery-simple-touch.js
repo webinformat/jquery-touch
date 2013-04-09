@@ -5,7 +5,7 @@
  * @fileoverview jQuery Simple Touch Plugin
  * @author marco.l
  * @since 2013-03-25
- * @version 0.1.0
+ * @version 0.1.3
  */
 (function (fTouch) {
 
