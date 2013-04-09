@@ -105,3 +105,7 @@ require(['jquery', 'touch'], function ($) {
 1. Increment browser testing coverage
 1. Improve Examples
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/marcol/jquery-touch/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
