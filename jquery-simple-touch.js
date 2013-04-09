@@ -42,7 +42,7 @@
 				diff = now - (oTouch.last || now),
 				touchItem = oEvt.originalEvent.touches[0];
 
-			oEvt.preventDefault();
+			// oEvt.preventDefault();
 
 			if (timer) {
 				clearTimeout(timer);
