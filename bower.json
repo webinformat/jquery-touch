@@ -1,0 +1,17 @@
+{
+  "name": "jquery-simple-touch",
+  "version": "0.1.3",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/marcol/jquery-touch.git"
+  },
+  "main": "jquery-simple-touch.js",
+  "dependencies": {
+    "html5-mobile-boilerplate": "~4.1.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
