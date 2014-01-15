@@ -9,7 +9,7 @@
  */
 (function (fTouch) {
 
-	"use strict";
+	'use strict';
 
 	if (typeof define === 'function' && define.amd) {
 		define(['jquery'], fTouch);
@@ -19,7 +19,7 @@
 
 }(function ($) {
 
-	"use strict";
+	'use strict';
 
 	var orientation,
 		oTouch = {},
