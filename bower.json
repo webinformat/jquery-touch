@@ -6,9 +6,7 @@
     "url": "git://github.com/marcol/jquery-touch.git"
   },
   "main": "jquery-simple-touch.js",
-  "dependencies": {
-    "html5-mobile-boilerplate": "~4.1.0"
-  },
+  "dependencies": {},
   "ignore": [
     "**/.*",
     "node_modules",
