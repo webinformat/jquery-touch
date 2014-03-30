@@ -1,4 +1,4 @@
-# jquery-simple-touch[![Build Status](https://secure.travis-ci.org/marcol/jquery-simple-touch.png?branch=master)](https://travis-ci.org/marcol/jquery-simple-touch)
+# jquery-simple-touch[![Build Status](https://secure.travis-ci.org/marcol/jquery-simple-touch.svg?branch=master)](https://travis-ci.org/marcol/jquery-simple-touch)
 
 A very simple jQuery's plugin for Touch events. I initially developed this plugin to be easily used with Backbone.
 
