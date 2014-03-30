@@ -2,6 +2,7 @@
   "name": "jquery-simple-touch",
   "description": "Simple support for touch events in jQuery. Simple integration with Backbone",
   "url": "https://github.com/marcol/jquery-touch",
+  "repository": "https://github.com/marcol/jquery-touch",
   "keywords": [
     "touch",
     "tap",
